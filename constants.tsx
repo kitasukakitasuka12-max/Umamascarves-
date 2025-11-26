@@ -1,35 +1,35 @@
 import React from 'react';
 import { ProductVariant } from './types';
 
-// Using Unsplash images that closely resemble the colors provided in the prompt (Blue, Pink, Gold, Purple)
+// Using reliable Unsplash images that match the color themes
 export const VARIANTS: ProductVariant[] = [
   {
     id: 'blue',
     name: 'Royal Blue',
     colorCode: '#9AB8C6',
     imageDescription: 'Elegant blue hijab with floral motif',
-    imageUrl: 'https://down-id.img.susercontent.com/file/id-11134207-8224r-mg1puwkhi972ed.webp'
+    imageUrl: 'https://images.unsplash.com/photo-1628151015968-3a4429e9ef04?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 'pink',
-    name: 'blue-gray',
+    name: 'Soft Pink',
     colorCode: '#afbab9',
     imageDescription: 'Soft pink hijab with delicate patterns',
-    imageUrl: 'https://down-id.img.susercontent.com/file/id-11134207-8224v-mg1puwkhmgwe0c.webp'
+    imageUrl: 'https://images.unsplash.com/photo-1616801831519-966966601836?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'gold',
     name: 'Luxury Gold',
     colorCode: '#D4C385',
     imageDescription: 'Golden shimmer hijab for special occasions',
-    imageUrl: 'https://down-id.img.susercontent.com/file/id-11134207-8224v-mg1puwkhmgwe0c.webp'
+    imageUrl: 'https://images.unsplash.com/photo-1599692984589-9b48b1115599?auto=format&fit=crop&w=800&q=80'
   },
   {
-    id: 'purple',
+    id: 'maroon',
     name: 'Deep Maroon',
     colorCode: '#7D4E57',
     imageDescription: 'Deep maroon hijab with bold accents',
-    imageUrl: 'https://down-id.img.susercontent.com/file/id-11134207-8224p-mg1puwkhfg2613.webp'
+    imageUrl: 'https://images.unsplash.com/photo-1611565538618-62a26514787a?auto=format&fit=crop&w=800&q=80'
   }
 ];
 
