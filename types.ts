@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface ProductVariant {
   id: string;
   name: string;
