@@ -12,18 +12,18 @@ const App: React.FC = () => {
         <HeroSection />
         
         {/* Additional "In the box" Section */}
-        <section className="py-20 bg-gray-50/50">
+        <section className="py-20 bg-white border-t border-gray-50">
             <div className="container mx-auto px-6 text-center">
                 <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4">The Premium Box Experience</h2>
                 <p className="text-gray-600 max-w-2xl mx-auto mb-12">
                    Setiap helai Umamascarves V.15 dikemas dalam box kokoh eksklusif dengan desain motif yang senada. Hadiah sempurna untuk diri sendiri atau orang terkasih.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-4xl mx-auto">
-                    <div className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-left border border-gray-100">
+                    <div className="bg-white p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.06)] transition-shadow text-left border border-gray-100">
                         <h3 className="text-xl font-bold mb-2 text-brand-dark">Proteksi Maksimal</h3>
                         <p className="text-gray-500">Box yang kokoh menjaga kualitas kain tetap prima saat pengiriman hingga sampai di tangan Anda.</p>
                     </div>
-                    <div className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-left border border-gray-100">
+                    <div className="bg-white p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.06)] transition-shadow text-left border border-gray-100">
                         <h3 className="text-xl font-bold mb-2 text-brand-dark">Desain Senada</h3>
                         <p className="text-gray-500">Motif pada box didesain khusus mengikuti motif hijab di dalamnya, menambah nilai estetika koleksi Anda.</p>
                     </div>
